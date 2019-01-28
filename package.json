@@ -1,0 +1,12 @@
+{
+  "name": "cookie-to-localstorage",
+  "version": "0.0.1",
+  "description": "CRUD cookie to localstorage",
+  "main": "index.js",
+  "keywords": [
+    "cookie",
+    "localstorage"
+  ],
+  "author": "senasiko",
+  "license": "MIT"
+}
