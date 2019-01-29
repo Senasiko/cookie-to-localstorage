@@ -42,7 +42,7 @@ module.exports = {
   get: function(name) {
     var v = JSON.parse(localStorage.getItem(per + name));
     if (!v) return null;
-    if (v.options.expires) {
+    if (v.options && v.options.expires) {
       var expires = new Date(v.options.expires).getTime();
       var now = new Date(v.options.expires).getTime();
       if (now > expires) {
