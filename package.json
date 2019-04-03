@@ -1,6 +1,6 @@
 {
   "name": "cookie-to-localstorage",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "CRUD cookie to localstorage",
   "main": "index.js",
   "keywords": [

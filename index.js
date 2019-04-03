@@ -58,7 +58,7 @@ module.exports = {
     return keys.map(key => ({ name: key, value: JSON.parse(localStorage[key]).value }));
   },
 
-  delete: function() {
+  delete: function(name) {
     localStorage.removeItem(per + name);
   },
 
